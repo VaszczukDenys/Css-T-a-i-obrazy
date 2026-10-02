@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.5;
+}
+
+.box {
+  padding: 24px;
+  margin-bottom: 30px;
+  border: 2px dashed #999;
+  border-radius: 8px;
+  min-height: 120px;
+}
+
+.tall {
+  min-height: 400px;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+.intro {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+#color-box {
+  background-color: #e0f2fe;
+  color: #0c4a6e;
+}
+
+#image-box {
+  background-image: url("https://picsum.photos/id/1015/800/400");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+#repeat-box {
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  background-color: #fef3c7;
+  background-repeat: repeat;
+}
+#attachment-box {
+  background-image: url("https://picsum.photos/id/1018/1200/800");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+#shorthand-box {
+  background: #1e293b url("https://picsum.photos/id/1043/800/500") no-repeat center / cover;
+  color: white;
+}
+#challenge-box {
+  background: linear-gradient(135deg, #7c3aed, #2563eb);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
+  padding: 32px;
+  text-align: center;
+  color: white;
+}
